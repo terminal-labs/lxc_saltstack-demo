@@ -20,3 +20,5 @@ apt install -y python3-dev
 apt install -y htop
 apt install -y net-tools
 apt install -y emacs
+
+cat lxd_preseed.yaml | lxd init --preseed
