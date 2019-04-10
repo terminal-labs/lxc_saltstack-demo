@@ -21,4 +21,5 @@ apt install -y htop
 apt install -y net-tools
 apt install -y emacs
 
-cat lxd_preseed.yaml | lxd init --preseed
+apt install -y lxd
+cat /vagrant/lxd_preseed.yaml | sudo lxd init --preseed
